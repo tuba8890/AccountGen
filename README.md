@@ -23,6 +23,7 @@
 10. Customise the Site Information values in the .env to your liking. It is recommended to keep the port 8080.
 11. Run ``Start.py`` and it should be running.
 12. Everything else is self-explanatory for creating generators, adding stock etc. Just go under the admin tab.
+13. If you want others to be able to access it, google a tutorial for port forwarding.
 
 ## Pictures
 ![One](https://i.imgur.com/T2f3Lwr.png)
