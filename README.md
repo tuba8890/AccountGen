@@ -22,3 +22,12 @@
 9. Put your Discord user ID under ADMIN_ID in .env.
 10. Customise the Site Information values in the .env to your liking. It is recommended to keep the port 8080.
 11. Run ``Start.py`` and it should be running.
+12. Everything else is self-explanatory for creating generators, adding stock etc. Just go under the admin tab.
+
+## Pictures
+![One](https://i.imgur.com/T2f3Lwr.png)
+![Two](https://i.imgur.com/LOtnilm.png)
+![Three](https://i.imgur.com/XfPnYGi.png)
+![Four](https://i.imgur.com/XxIONse.png)
+![Five](https://i.imgur.com/BCWLRFS.png)
+
