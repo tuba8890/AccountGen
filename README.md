@@ -13,4 +13,12 @@
 ## Setup
 1. Make sure you have Python.
 2. Download this github and have the source folder.
-3. In the source folder, open cmd and run ```py pip install```
+3. In the source folder, open cmd and run ```pip install requirements.txt```
+4. Open the .env in an editor, and paste your MongoURI link. (https://www.mongodb.com/docs/manual/reference/connection-string/)
+5. Go to the Discord Developer Portal (https://discord.com/developers/applications) and create a new application.
+6. Go under the OAuth tab and get the client ID, paste this under the CLIENT_ID in .env.
+7. On the Developer Portal, click Reset Secret and paste this value under the CLIENT_SECRET in .env.
+8. On the Developer Portal, click Add Redirect. Put localhost:8080/callback and any other domains you are using.
+9. Put your Discord user ID under ADMIN_ID in .env.
+10. Customise the Site Information values in the .env to your liking. It is recommended to keep the port 8080.
+11. Run ``Start.py`` and it should be running.
