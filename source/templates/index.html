@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>BattleTasks</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link href="{{ url_for('static', filename='css/home.css') }}" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&family=REM:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="text-white">
+
+    <div id="content-wrap">
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/">{{siteName}}</a>
+                <!-- Toggle Navbar -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navBarToggle"
+                    aria-controls="navBarToggle" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navBarToggle">
+                    <!-- Links -->
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/login">Login using Discord</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/discord">Support</a>
+                        </li>
+                        
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        
+        
+
+
+
+        <!-- Hero Section -->
+        <div class="container-fluid bg-dark text-center hero-section">
+            <h1 class="display-2">{{siteName}}</h1>
+            <p class="lead">The best account generator.</p>
+            <a href="/login" class="btn btn-primary dashboard-button">Login using Discord</a>
+        </div>
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Free</h3>
+                    <p>All features are free to use with up to 100 account generations daily.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Proxies & Combos</h3>
+                    <p>Free proxies and combos available to download all from the same dashboard.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Neat UI</h3>
+                    <p>A simple, and clean UI that works on both desktop and mobile.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="text-center py-3" style="background-color: #15181a;">
+            <p>&copy; 2023 {{siteName}}. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- ... (Your scripts and other resources) -->
+
+</body>
+
+</html>

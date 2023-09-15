@@ -1,0 +1,281 @@
+/* Body */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'DM Sans', sans-serif;
+  background-color: #22282a;
+}
+
+#content-wrap {
+  flex: 1 0 auto;
+}
+
+footer {
+  flex-shrink: 0;
+}
+
+.logout-dropdown-item:hover {
+  color: rgb(137, 54, 54);
+}
+
+.custom-container .row {
+  justify-content: space-between;
+}
+
+.custom-container .col-lg-3,
+.custom-container .col-lg-6 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (min-width: 992px) {
+  .custom-container {
+      max-width: calc(100% + (2 * 8.333333%) - 30px);
+  }
+}
+
+/* NavBar */
+.navbar {
+  background-color: #15181a;
+}
+
+.user-card {
+  padding: 1px 10px;
+  border-radius: 5px;
+}
+
+/* Dashboard */
+.card {
+  background-color: #14181b;
+  color: #d3dbde;
+}
+
+.profile-card {
+  background-color: #21272c;
+  color: #d3dbde;
+}
+
+.progress-bar {
+  background-color: #302a7f;
+}
+
+.dashboard-button {
+  background-color: #203354;
+  border-color: rgb(63, 82, 116);
+
+}
+
+.dashboard-button:hover {
+  background-color: #131f34;
+  border-color: #203354;
+}
+
+.dashboard-button:disabled {
+  background-color: #2f405c;
+  border: #505d71;
+}
+
+.dashboard-button:after {
+  background-color: #131f34;
+  border-color: #203354;
+}
+
+.dashboard-button-gray {
+  background-color: #3f4857;
+}
+
+.dashboard-button-gray:hover {
+  background-color: #292e39;
+  border-color: #3f4857;
+}
+
+.dashboard-button-gray:disabled {
+  background-color: #32363f;
+  border-color: #464e5b;
+}
+
+.dashboard-button-danger {
+  background-color: #742525;
+  border-color: #421616;
+
+}
+
+.dashboard-button-danger:hover {
+  background-color: #541b1b;
+  border-color: #2e0f0f;
+}
+
+.dashboard-button-danger:disabled {
+  background-color: #753838;
+  border-color: #4b2424;
+}
+
+
+.required-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: red;
+  font-size: 14px;
+  pointer-events: none;
+}
+
+.hero-section {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+/* Settings Edit Button */
+.settings-edit-btn {
+  background: none;
+  border: none;
+  color: #d3dbde;
+  cursor: pointer;
+  margin-left: 10px;
+  padding: 0;
+}
+
+.settings-edit-btn:hover {
+  color: #848484;
+}
+
+.settings-edit-btn:focus {
+  outline: none;
+}
+
+
+form-control {
+  padding-right: 30px;
+  /* adjust as necessary */
+}
+
+
+
+.modal-header {
+  background-color: #171a1c;
+  color: #ffffff;
+}
+
+.modal-body {
+  background-color: #22282a;
+  color: #ffffff;
+}
+
+.modal-footer {
+  background-color: #171a1c;
+  color: #ffffff;
+}
+
+.modal-input-text {
+  background-color: #303436;
+  font-family: "Inter", sans-serif;
+  border: none;
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 30px;
+  color: white;
+  outline: none;
+  padding: 0 10px;
+  border-radius: 4px;
+}
+
+.modal-big-input-text {
+  background-color: #303436;
+  font-family: "Inter", sans-serif;
+  border: none;
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  color: white;
+  outline: none;
+  font-size: smaller;
+  padding: 0 10px;
+  border-radius: 4px;
+}
+
+input[type=file]::file-selector-button {
+  border: #575c5e;
+  border-radius: .2em;
+  background-color: #303436;
+  height: 25px;
+  transition: 1s;
+  color: white;
+}
+
+input[type=file]::file-selector-button:hover {
+  background-color: #1c1f20;
+}
+
+.modal-input-range {
+  background-color: #303436;
+  font-family: "Inter", sans-serif;
+  border: none;
+  -webkit-appearance: none;
+  appearance: none;
+  color: white;
+  outline: none;
+  padding: 0 10px;
+  border-radius: 4px;
+}
+
+.modal-input-select {
+  background-color: #303436;
+  font-family: "Inter", sans-serif;
+  border: none;
+  -webkit-appearance: none;
+  appearance: none;
+  color: white;
+  outline: none;
+  padding: 0 10px;
+  border-radius: 4px;
+  position: relative;
+  color: #ffffff;
+  padding-right: 25px;
+}
+
+
+input[type=checkbox] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  background-color: #303436;
+  border-radius: 4px;
+  position: relative;
+  cursor: pointer;
+}
+
+input[type=checkbox]:checked {
+  background-color: #4d5255;
+}
+
+
+select::after {
+  content: '▼';
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  pointer-events: none;
+}
+
+select:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 white;
+}
+
+
+
+.dashboard-timer {
+  color: #555555;
+  font-size: small;
+}
+
+a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit color from parent element */
+}
