@@ -13,7 +13,7 @@
 ## Setup
 1. Make sure you have Python.
 2. Download this github and have the source folder.
-3. In the source folder, open cmd and run ```pip install requirements.txt```
+3. In the source folder, open cmd and run ```pip install -r requirements.txt```
 4. Open the .env in an editor, and paste your MongoURI link. (https://www.mongodb.com/docs/manual/reference/connection-string/)
 5. Go to the Discord Developer Portal (https://discord.com/developers/applications) and create a new application.
 6. Go under the OAuth tab and get the client ID, paste this under the CLIENT_ID in .env.
